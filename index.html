@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row header">
+            <div class="col mainpage">
+                <a href="index.html" class="nav-link"><bold><i class="bi bi-arrow-left-circle" style="font-size: 1.1rem;"></i> User pages</bold> - Profile</a>
+            </div>
+            <div class="col pages">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="bi bi-bar-chart-fill"></i> Statistic</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="bi bi-calculator"></i> Invoices</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="bi bi-calendar3"></i> Schedule</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mainnav">
+
+            <div class="col leftnav">
+                <ul class="nav nav-pills justify-content-start">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-list"></i> Activity</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="map.html"><i class="bi bi-geo-alt"></i> Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="timer.html"><i class="bi bi-clock"></i> Time</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col rightnav">
+                <ul class="nav nav-pills justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-journal-text"></i> Notes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-people"></i> Friends</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-images"></i> Photoes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-gear"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-chevron-down"></i>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"></a>=</li>
+                                <li><a class="dropdown-item" href="#"></a>=</li>
+                                <li><a class="dropdown-item" href="#"></a>=</li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#"></a>=</li>
+                            </ul>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row content">
+            <div class="col-9 posts">
+                <div class="mainpost">
+                    <img src="./images/postphoto.jpg" class="img-fluid" id="postPhoto" alt="Main post photo">
+                    <div id="maincomment">
+                        <i class="bi bi-chat-left-text m-3" style="font-size: 0.9rem;"><a href="#" style="text-decoration: none;"> Jason Anderson</a> commented:</i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="d-flex" style="height: 80px;">
+                            <div class="vr"></div>
+                        </div>
+                        <div class="posttext px-3">
+                            <figure>
+                                <blockquote class="blockquote">
+                                <p id="mainposttext">Don't sit and wait. Get out there, feel life. Touch the sun, and immerse in the sea. Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Because summer is passion, memories, light breeze, the sun that appears on the skin and caresses the face.</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer">
+                                    Jason, 10:30 am
+                                </figcaption>
+                            </figure>
+                            <a href="#" style="text-decoration: none; color: #505050;"><i class="bi bi-eye"> 432</i></a>
+                            <a href="#" style="text-decoration: none; color: #505050;"><i class="bi bi-chat-left-text m-3"> 47</i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-grid gap-3">
+                    <div class="p-2 d-flex previousPost">
+                        <div class="justify-content-start">Sunset Sunset Sunset</div>
+                        <a href="#" class="posttime">
+                            <i class="bi bi-clock"> 53 minutes ago</i> 
+                        </a>
+                    </div>
+                    
+                    <div class="p-2 d-flex lastPost">
+                        <div class="">Morning in Siberia</div>
+                        <a href="#" class="posttime"><i class="bi bi-clock"> 56 minutes ago</i> </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 profile">
+                <div class="d-grid gap-3">
+                    
+                    <div class="p-2 profileInfo text-center">
+                        <img src="./images/profilephoto.jpg" class="img-fluid profilePhoto" alt="Profile photo">
+                        <h1>Hanna Dorman</h1>
+                        <h2>UX/UI Designer</h2>
+                        <div class="contact d-flex justify-content-center">
+                            <a href="#" class="socials"><i class="bi bi-telegram"></i></a>
+                            <a class="socials"><i class="bi bi-facebook"></i></a>
+                            <a class="socials"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="p-2 profilenav active">
+                        <div class="accordion" id="accordionNav">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingNav">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNav" aria-expanded="true" aria-controls="collapseNav">
+                                  Navigation
+                                </button>
+                              </h2>
+                              <div id="collapseNav" class="accordion-collapse collapse show" aria-labelledby="headingNav" data-bs-parent="#accordionNav">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="#"> <i class="bi bi-person"></i> My profile</a></li>
+                                        <li><a href="#"><i class="bi bi-cash-stack"></i> Balance</a></li>
+                                        <li><a href="#"><i class="bi bi-bounding-box-circles"></i> Connections</a> <span class="badge rounded-pill bg-danger">29</span></li>
+                                        <li><a href="#"><i class="bi bi-people"></i> Friends </a></li>
+                                        <hr style="width: 100%;">
+                                        <li><a href="#"><i class="bi bi-calendar4-event"></i> Events</a> <span class="badge rounded-pill bg-success">45</span></li>
+                                        <li><a href="#"><i class="bi bi-gear"></i> Account settings</a></li>
+                                    </ul>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="p-2 newpost">
+                        <div class="accordion" id="accordionShare">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingShare">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseShare" aria-expanded="true" aria-controls="collapseShare">
+                                  Share your thoughts
+                                </button>
+                                </h2>
+                                <div id="collapseShare" class="accordion-collapse collapse show" aria-labelledby="headingShare" data-bs-parent="#accordionShare">
+                                    <div class="accordion-body">
+                                        <textarea class="form-control" id="textShare" rows="3" placeholder="Enter your message..."></textarea>
+                                        <button type="submit" class="btn btn-primary mb-3 col-12" id="saveBtn">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Пакет JavaScript с Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
