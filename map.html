@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row header">
+            <div class="col mainpage">
+                <a href="index.html" class="nav-link"><i class="bi bi-arrow-left-circle" style="font-size: 1.1rem;"></i> User pages - Profile</a>
+            </div>
+            <div class="col pages">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-bar-chart-fill"></i> Statistic</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-calculator"></i> Invoices</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-calendar3"></i> Schedule</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mainnav">
+            <div class="col leftnav">
+                <ul class="nav nav-pills justify-content-start">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="bi bi-list"></i>Activity</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="map.html"><i class="bi bi-geo-alt"></i>Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="timer.html"><i class="bi bi-clock"></i>Time</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col rightnav">
+                <ul class="nav nav-pills justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-journal-text"></i> Notes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-people"></i> Friends</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-images"></i> Photoes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-gear"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-chevron-down"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="accordion" id="accordionMap">
+            <div class="accordion-item">
+              <h2 class="accordion-header d-flex" id="headingMap">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMap" aria-expanded="true" aria-controls="collapseMap">
+                  Basic map
+                </button>
+              </h2>
+              <div id="collapseMap" class="accordion-collapse collapse show" aria-labelledby="headingMap" data-bs-parent="#accordionMap">
+                <div class="accordion-body">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1320.491230423527!2d37.14665076366001!3d56.72659319481375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b443a71a2282f9%3A0x4225125a1e8e376e!2z0JzQvtGB0LrQvtCy0YHQutC40Lkg0L7QsdC70LDRgdGC0L3QvtC5INC_0YDQvtC80YvRiNC70LXQvdC90L4t0Y3QutC-0L3QvtC80LjRh9C10YHQutC40Lkg0LrQvtC70LvQtdC00LYsINGD0LsuINCt0L3RgtGD0LfQuNCw0YHRgtC-0LIsIDIxINC60L7RgNC_0YPRgSAyLCDQlNGD0LHQvdCwLCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0LsuLCAxNDE5ODE!5e0!3m2!1sru!2sru!4v1656140740324!5m2!1sru!2sru" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
